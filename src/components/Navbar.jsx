@@ -44,7 +44,7 @@ const Navbar = () => {
               </span>
             </button>
             <div
-              className={`absolute left-0 bg-white text-black shadow-xl mt-6 w-40 
+              className={`absolute left-0 bg-white text-black shadow-xl mt-1 w-40 
           transform transition-all duration-300 origin-top z-20
           ${
             openDropdown === "teacher"
@@ -74,7 +74,7 @@ const Navbar = () => {
               </span>
             </button>
             <div
-              className={`absolute left-0 bg-white text-black shadow-xl mt-6 w-40 
+              className={`absolute left-0 bg-white text-black shadow-xl mt-1 w-40 
           transform transition-all duration-300 origin-top z-20
           ${
             openDropdown === "student"

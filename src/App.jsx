@@ -7,6 +7,7 @@ import Aboutus from './components/Aboutus'
 import Course from './components/Course'
 import Instructor from './components/Instructor'
 import Testimonial from './components/Testimonial'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Course />
       <Instructor />
       <Testimonial />
+      <Footer />
     </div>
   )
 }
