@@ -1,29 +1,34 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Detail from './components/Detail'
-import Aboutus from './components/Aboutus'
-import Course from './components/Course'
-import Instructor from './components/Instructor'
-import Testimonial from './components/Testimonial'
-import Footer from './components/Footer'
+import { useState } from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Category from "./pages/Category";
+import TeacherSignIn from "./pages/TeacherLogin";
+import TeacherRegister from "./pages/TeacherRegister";
+import StudentLogin from "./pages/StudentLogin";
+import StudentRegister from "./pages/StudentRegister";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Detail />
-      <Aboutus />
-      <Course />
-      <Instructor />
-      <Testimonial />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/category" element={<Category />} />
+          <Route path="/teacher-login" element={<TeacherSignIn />}/>
+          <Route path="/teacher-register" element={<TeacherRegister />}/>
+          <Route path="/student-login" element={<StudentLogin />}/>
+          <Route path="/student-register" element={<StudentRegister />}/>
+        </Routes>
+        <Footer />
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

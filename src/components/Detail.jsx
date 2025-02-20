@@ -4,7 +4,7 @@ import { FaHome } from "react-icons/fa";
 import { IoBook } from "react-icons/io5";
 import { FaHatWizard } from "react-icons/fa";
 
-const Feature = () => {
+const Detail = () => {
   return (
     <div className="flex flex-wrap justify-center gap-6 p-4 mt-40 mb-10">
      <div className="w-[310px] h-[350px] flex flex-col justify-center items-center px-4 bg-[#F0FBFC] 
@@ -51,4 +51,4 @@ const Feature = () => {
   );
 }
 
-export default Feature
+export default Detail
