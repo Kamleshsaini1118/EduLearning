@@ -14,11 +14,11 @@ const Hero = () => {
   
         {/* Overlay Content */}
         <div className="relative z-10 text-white ml-24 max-w-full">
-          <h1 className="text-7xl font-bold">NEVER STOP LEARNING.
+          <h1 className="text-3xl md:text-7xl font-bold">NEVER STOP LEARNING.
             <br />
           NEVER STOP GROWING.</h1>
-          <h3 className="text-3xl mt-3">LEARN WITH US!</h3>
-          <p className="mt-3 text-lg">Learn from the top Instructor over the World. <br />
+          <h3 className="text-2xl md:text-3xl mt-3">LEARN WITH US!</h3>
+          <p className="mt-3 text-base md:text-lg">Learn from the top Instructor over the World. <br />
           Learn the latest Technology Trend.</p>
         </div>
   
