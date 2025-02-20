@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const TeacherSignIn = () => {
   return (
     <div className="flex justify-center items-center min-h-screen ">
-      <div className="w-full max-w-md bg-white shadow-2xl  p-6">
+      <div className="w-[85%] md:w-full max-w-lg bg-white shadow-2xl  p-10">
         {/* Title */}
         <h5 className="text-center text-lg font-semibold text-gray-800 mb-4">
           TEACHER SIGN IN
