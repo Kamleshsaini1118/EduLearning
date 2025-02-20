@@ -15,7 +15,7 @@ const Navbar = () => {
             className="text-3xl font-bold text-[#06BBCC] hover:text-[#297d7e]"
             href="#"
           >
-            Dlf Learning
+            DFW Learning
           </a>
         </div>
 

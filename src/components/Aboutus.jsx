@@ -23,7 +23,7 @@ const Aboutus = () => {
             </div>
         </span>
 
-        <h2 className='text-5xl font-semibold pt-2 pb-4'>Welcome to eduLEARNING</h2>
+        <h2 className='text-5xl font-semibold pt-2 pb-4'>Welcome to dfwLEARNING</h2>
         <p className='text-gray-600'>Students do not learn much just sitting in classes listening to teachers, memorizing prepackaged assignments, and spitting out answers. They must talk about what they are learning, write reflectively about it, relate it to past experiences, and apply it to their daily lives. They must make what they learn part of themselves.
             <br />
             <br />

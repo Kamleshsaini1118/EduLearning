@@ -65,7 +65,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between text-center md:text-left">
           {/* Left Side */}
           <div className="leading-relaxed md:leading-loose"> {/* 2px Vertical Gap */}
-            ©2025 <a className="border-b hover:text-white" href="/">DLF Learning</a><br />
+            ©2025 <a className="border-b hover:text-white" href="/">DFW Learning</a><br />
             All Rights Reserved
           </div>
           
