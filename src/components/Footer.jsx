@@ -23,16 +23,16 @@ const Footer = () => {
                 <MdArrowForwardIos className="mt-1" /> Privacy Policy
               </span>
             </Link>
-            <a className="block text-gray-300 font-semibold hover:text-white mb-2" href="/privacy">
+            <Link className="block text-gray-300 font-semibold hover:text-white mb-2" to="/privacy">
               <span className="flex gap-2 justify-center md:justify-start">
                 <MdArrowForwardIos className="mt-1" /> Terms & Condition
               </span>
-            </a>
-            <a className="block text-gray-300 font-semibold hover:text-white mb-2" href="/faq">
+            </Link>
+            <Link className="block text-gray-300 font-semibold hover:text-white mb-2" to="/faq">
               <span className="flex gap-2 justify-center md:justify-start">
                 <MdArrowForwardIos className="mt-1" /> FAQs & Help
               </span>
-            </a>
+            </Link>
           </div>
 
           {/* Contact Info */}
