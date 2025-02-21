@@ -118,8 +118,8 @@ const Navbar = () => {
   const [mobileDropdown, setMobileDropdown] = useState(null);
 
   return (
-    <nav className="bg-white text-black shadow-md fixed w-full z-50">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6">
+    <nav className="bg-white text-black shadow-xl fixed w-full z-50">
+      <div className="container mx-auto flex justify-between items-center py-4 px-10">
         {/* Logo & Brand */}
         <div className="flex items-center space-x-3">
           <IoBookOutline size={30} className="text-[#06BBCC]" />
@@ -131,8 +131,8 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 items-center">
           <Link to="/" className="hover:text-[#06BBCC]">HOME</Link>
-          <Link to="category" className="hover:text-[#06BBCC]">CATEGORY</Link>
-          <Link to="/courses" className="hover:text-[#06BBCC]">COURSE</Link>
+          <Link to="/category" className="hover:text-[#06BBCC]">CATEGORY</Link>
+          <Link to="/all-course" className="hover:text-[#06BBCC]">COURSE</Link>
 
           {/* TEACHER DROPDOWN */}
           <div
@@ -199,8 +199,8 @@ const Navbar = () => {
           </div>
 
           <Link to="/" className="hover:text-[#06BBCC]" onClick={() => setMenuOpen(false)}>HOME</Link>
-          <Link to="category" className="hover:text-[#06BBCC]" onClick={() => setMenuOpen(false)}>CATEGORY</Link>
-          <Link to="#" className="hover:text-[#06BBCC]" onClick={() => setMenuOpen(false)}>COURSE</Link>
+          <Link to="/category" className="hover:text-[#06BBCC]" onClick={() => setMenuOpen(false)}>CATEGORY</Link>
+          <Link to="/all-course" className="hover:text-[#06BBCC]" onClick={() => setMenuOpen(false)}>COURSE</Link>
 
           {/* TEACHER DROPDOWN MOBILE */}
           <button className="hover:text-[#06BBCC] flex items-center" onClick={() => setMobileDropdown(mobileDropdown === "teacher" ? null : "teacher")}>

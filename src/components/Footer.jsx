@@ -2,6 +2,7 @@ import React from 'react';
 import { MdMail, MdArrowForwardIos } from "react-icons/md";
 import { IoCallSharp, IoLocationSharp } from "react-icons/io5";
 import { FaLinkedinIn, FaYoutube, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -12,17 +13,17 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="text-white mb-3 text-2xl font-bold">Quick Link</h4>
-            <a className="block text-gray-300 font-semibold hover:text-white mb-2" href="/aboutus">
+            <Link className="block text-gray-300 font-semibold hover:text-white mb-2" to="/about-us">
               <span className="flex gap-2 justify-center md:justify-start">
                 <MdArrowForwardIos className="mt-1" /> About Us
               </span>
-            </a>
-            <a className="block text-gray-300 font-semibold hover:text-white mb-2" href="/policy">
+            </Link>
+            <Link className="block text-gray-300 font-semibold hover:text-white mb-2" to="/privacy">
               <span className="flex gap-2 justify-center md:justify-start">
                 <MdArrowForwardIos className="mt-1" /> Privacy Policy
               </span>
-            </a>
-            <a className="block text-gray-300 font-semibold hover:text-white mb-2" href="/policy">
+            </Link>
+            <a className="block text-gray-300 font-semibold hover:text-white mb-2" href="/privacy">
               <span className="flex gap-2 justify-center md:justify-start">
                 <MdArrowForwardIos className="mt-1" /> Terms & Condition
               </span>

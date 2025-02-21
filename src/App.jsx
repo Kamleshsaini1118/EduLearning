@@ -9,6 +9,10 @@ import TeacherSignIn from "./pages/TeacherLogin";
 import TeacherRegister from "./pages/TeacherRegister";
 import StudentLogin from "./pages/StudentLogin";
 import StudentRegister from "./pages/StudentRegister";
+import CoursePage from "./pages/CoursePage";
+import AboutUsPage from "./pages/AboutUsPage";
+import PopularCourses from "./pages/PopularCourses";
+import PrivacyPolicy from "./pages/Privacy";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,6 +28,15 @@ function App() {
           <Route path="/teacher-register" element={<TeacherRegister />}/>
           <Route path="/student-login" element={<StudentLogin />}/>
           <Route path="/student-register" element={<StudentRegister />}/>
+
+
+          {/* course route */}
+          <Route path="/all-course" element={<CoursePage />}/>
+          <Route path="/popular-courses" element={<PopularCourses />}/>
+
+          {/* footer route */}
+          <Route path="/about-us" element={<AboutUsPage />}/>
+          <Route path="/privacy" element={<PrivacyPolicy />}/>
         </Routes>
         <Footer />
       </Router>
