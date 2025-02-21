@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="px-20 py-24">
-      <h2 className="text-4xl font-semibold mb-3 text-gray-800">
+    <div className="px-6 md:px-20 py-24">
+      <h2 className="text-2xl md:text-4xl font-semibold mb-3 text-gray-800">
         PRIVACY POLICY
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         <strong>Dfw Learning</strong> (the “Company”) is committed to protecting
         the privacy of its users. This Privacy Policy (“Privacy Policy”) is
         designed to help you understand what information we gather, how we use
@@ -18,13 +18,13 @@ const PrivacyPolicy = () => {
         across partnered and unaffiliated sites.
       </p>
       <br />
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         For purposes of this Agreement, the terms “we,” “us,” and “our” refer to
         the Company. “You” refers to you, as a user of the website.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">I. CONSENT</h2>
-      <p className="text-gray-600">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">I. CONSENT</h2>
+      <p className="text-sm md:text-base text-gray-600">
         By accessing our website, you accept our Privacy Policy and Terms of
         Use, and you consent to our collection, storage, use and disclosure of
         your personal information as described in this Privacy Policy. In
@@ -39,10 +39,10 @@ const PrivacyPolicy = () => {
         to all users of the website.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         II. INFORMATION WE COLLECT
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         We may collect both “Non-Personal Information” and “Personal
         Information” about you. “Non-Personal Information” includes information
         that cannot be used to personally identify you, such as anonymous usage
@@ -53,10 +53,10 @@ const PrivacyPolicy = () => {
         personally identify you, such as your name, address and email address.
       </p>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">
         Google Analytics
       </h3>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         This website uses Google Analytics to track information regarding your
         use of the website. We may track information provided to us by your
         browser or use of the website, such as the website you came from (known
@@ -68,8 +68,8 @@ const PrivacyPolicy = () => {
         regarding use of the website and for other business purposes.
       </p>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">Cookies</h3>
-      <p className="text-gray-600">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">Cookies</h3>
+      <p className="text-sm md:text-base text-gray-600">
         We track this information in Google Analytics using cookies, or small
         text files which include an anonymous unique identifier. Cookies are
         sent to a user’s browser from our servers and are stored on the user’s
@@ -84,7 +84,7 @@ const PrivacyPolicy = () => {
         disable cookies, some areas of the website may not work properly.
       </p>
 
-      <div className="mt-3 text-gray-600">
+      <div className="mt-3 text-sm md:text-base text-gray-600">
         <li className="font-semibold">
           You may disable cookies in your browser using the following
           instructions:
@@ -127,10 +127,10 @@ const PrivacyPolicy = () => {
         </li>
       </div>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">
         Website Forms
       </h3>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         There may be several online forms present on our website where you are
         able to submit personally identifiable information in order to express
         interest in our business or submit an inquiry regarding our business.
@@ -148,10 +148,10 @@ const PrivacyPolicy = () => {
         us.
       </p>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">
         Email Communications
       </h3>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         Based upon the Personal Information that you provide us, we may
         communicate with you in response to your inquiries to provide the
         services you request and to manage your account. We will communicate
@@ -173,10 +173,10 @@ const PrivacyPolicy = () => {
         Mailchimp’s own Privacy Policy​.
       </p>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">
         Online Advertising
       </h3>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         We participate in a variety of online advertising. This advertising
         displays our ads to you on the websites and apps that reside outside of
         this website.
@@ -190,10 +190,10 @@ const PrivacyPolicy = () => {
         <li>where the ad was displayed</li>
       </p>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">
         Buttons, Tools, And Content From Other Companies
       </h3>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         Our websites may include features such as plugins, buttons, tools, or
         content that link to other companies. We may collect information about
         your use of these features. In addition, when you see or interact with
@@ -203,33 +203,33 @@ const PrivacyPolicy = () => {
         more information.
       </p>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">
         Social Media
       </h3>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         We have a presence on various social media networks, such as Facebook,
         Instagram, Twitter, Google+, Pinterest, and LinkedIn. We may collect
         information when you interact with our social media accounts and pages.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         III. HOW WE USE AND SHARE INFORMATION
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         The data that we collect about you may be used in the following ways:
       </p>
       <br />
-      <ul className="list-disc list-inside text-gray-600">
+      <ul className="list-disc list-inside text-sm md:text-base text-gray-600">
         <li>Troubleshooting our website and diagnosing problems</li>
         <li>Providing services or information upon request</li>
         <li>Understanding user behavior to improve our site</li>
         <li>Sending updates about our Company</li>
       </ul>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">
         Personal Information:
       </h3>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         In general, we do not sell, trade, rent or otherwise share your Personal
         Information with third parties without your consent. We may share your
         Personal Information with vendors and other third-party providers who
@@ -258,10 +258,10 @@ const PrivacyPolicy = () => {
         so by law or if you violate our Terms of Use.
       </p>
 
-      <h3 className="text-3xl font-semibold my-3 text-gray-800">
+      <h3 className="text-xl md:text-3xl font-semibold my-3 text-gray-800">
         Non-Personal Information:
       </h3>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         In general, we use Non-Personal Information to help us improve the
         website and customize the user experience. We also aggregate
         Non-Personal Information in order to track trends and analyze use
@@ -271,10 +271,10 @@ const PrivacyPolicy = () => {
         advertisers and other third parties at our sole discretion.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         IV. HOW WE PROTECT INFORMATION
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         We implement reasonable precautions and follow industry best practices
         in order to protect your Personal Information and ensure that such
         Personal Information is not accessed, disclosed, altered or destroyed.
@@ -284,10 +284,10 @@ const PrivacyPolicy = () => {
         and agree to assume these risks.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         V. YOUR RIGHTS REGARDING THE USE OF YOUR PERSONAL INFORMATION
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         You may choose to restrict the collection or use of your personal
         information in the following ways:
         <br />
@@ -313,8 +313,8 @@ const PrivacyPolicy = () => {
         incorrect.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">VI. HOSTING</h2>
-      <p className="text-gray-600">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">VI. HOSTING</h2>
+      <p className="text-sm md:text-base text-gray-600">
         Our website is hosted by InMotion Hosting, Inc. InMotion Hosting
         provides us with the online platform that allows us to provide the
         website to you. Your information, including Personal Information, may be
@@ -324,10 +324,10 @@ const PrivacyPolicy = () => {
         privacy policy.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         VII. LINKS TO OTHER WEBSITES
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         As part of the website, we may provide links to or compatibility with
         other websites or applications. However, we are not responsible for the
         privacy practices employed by those websites or the information or
@@ -341,17 +341,17 @@ const PrivacyPolicy = () => {
         statements of other websites before proceeding to use them.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         VIII. AGE OF CONSENT
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         By using the website, you represent that you are at least 18 years old.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         IX. CHANGES TO OUR PRIVACY POLICY
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         The Company reserves the right to change this Privacy Policy and our
         Terms of Use at any time. If we decide to change this Privacy Policy, we
         will post these changes on this page so that you are always aware of
@@ -368,10 +368,10 @@ const PrivacyPolicy = () => {
         in this Privacy Policy.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         X. MERGER OR ACQUISITION
       </h2>
-      <p className="text-gray-600">
+      <p className="text-sm md:text-base text-gray-600">
         In the event we undergo a business transaction such as a merger,
         acquisition by another company, or sale of all or a portion of our
         assets, your Personal Information may be among the assets transferred.
@@ -385,20 +385,20 @@ const PrivacyPolicy = () => {
         used.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         XI. CONTACT US & WITHDRAWING CONSENT
       </h2>
-      <p>
+      <p className="text-sm md:text-base text-gray-600">
         If you have any questions regarding this Privacy Policy or the practices
         of this Site, or wish to withdraw your consent for the continued
         collection, use or disclosure of your Personal Information, please
         contact us by sending an email to us.
       </p>
 
-      <h2 className="text-4xl font-semibold my-3 text-gray-800">
+      <h2 className="text-2xl md:text-4xl font-semibold my-3 text-gray-800">
         XII. Last Updated
       </h2>
-      <p>This Privacy Policy was last updated on Monday, March 17, 2023.</p>
+      <p className="text-sm md:text-base text-gray-600">This Privacy Policy was last updated on Monday, March 17, 2023.</p>
     </div>
   );
 };
