@@ -104,12 +104,12 @@ const Course = () => {
               </div>
               <div className="p-4 text-center">
                 <h5 className="text-lg font-semibold">
-                  <a
-                    href={`/detail/${course.id}`}
+                  <Link
+                    to={`/detail/${course.id}`}
                     className="text-[#06BBCC] hover:text-[#3499a2]"
                   >
                     {course.title}
-                  </a>
+                  </Link>
                 </h5>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const instructors = [
   {
@@ -84,13 +85,14 @@ const Instructor = () => {
               className="shadow-lg bg-[#F0FBFC] overflow-hidden transition hover:shadow-2xl group"
             >
               <div className="overflow-hidden">
-                {/* <a href={`/teacher-detail/${instructor.id}`}> */}
+                <Link to={`/teacher-detail/${instructor.id}`}>
                 <img
                   src={instructor.image || "https://via.placeholder.com/330"}
                   alt={instructor.name}
                   className="w-full h-80 object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
-                />
-                {/* </a> */}
+                  />
+                </Link>
+                
               </div>
 
               {instructor.socialLinks.length > 0 && (

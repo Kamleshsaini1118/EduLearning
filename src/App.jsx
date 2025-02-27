@@ -13,6 +13,8 @@ import CoursePage from "./pages/CoursePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import PopularCourses from "./pages/PopularCourses";
 import PrivacyPolicy from "./pages/Privacy";
+import CourseDetail from "./pages/CourseDetail";
+import InstructorDetail from "./pages/InstructorDetail";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,6 +35,10 @@ function App() {
           {/* course route */}
           <Route path="/all-course" element={<CoursePage />}/>
           <Route path="/popular-courses" element={<PopularCourses />}/>
+
+          {/* Course Detail Page - Jab Kisi Course Pe Click Ho */}
+          <Route path="/detail/:id" element={<CourseDetail />} />
+          <Route path="/teacher-detail/:id" element={<InstructorDetail />}/>
 
           {/* footer route */}
           <Route path="/about-us" element={<AboutUsPage />}/>
