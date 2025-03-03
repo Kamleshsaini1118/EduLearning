@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -7,6 +7,8 @@ import "react-toastify/dist/ReactToastify.css";
 // toast.configure();
 
 const TeacherSignIn = () => {
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -19,6 +21,10 @@ const TeacherSignIn = () => {
       });
       console.log("Response:", response.data);
       toast.success("Login successful!");
+
+      setTimeout(() => {
+        navigate("/");
+      }, 1500); 
     } catch (error) {
       console.error("Sign-in failed:", error);
       toast.error("Login failed. Please try again.");

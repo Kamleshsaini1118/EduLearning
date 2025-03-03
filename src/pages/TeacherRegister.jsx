@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const TeacherRegister = () => {
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -23,6 +25,10 @@ const TeacherRegister = () => {
       const response = await axios.post("https://lms-d0g5.onrender.com/api/auth/register", formData);
       console.log("Response:", response.data);
       toast.success("Registration Successful!", { position: "top-right" });
+
+      setTimeout(() => {
+        navigate("/teacher-login");
+      }, 2000); 
     } catch (error) {
       console.error("Sign-up failed:", error);
       toast.error("Registration failed. Please try again.", { position: "top-right" });
