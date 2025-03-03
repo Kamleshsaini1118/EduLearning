@@ -88,6 +88,8 @@
 // };
 
 // export default Course;
+
+
 import React, { useState } from "react";
 import { FaUserTie, FaEye } from "react-icons/fa";
 import { BsStarFill } from "react-icons/bs";
@@ -103,7 +105,7 @@ const courses = [
     image: "https://minipro.pythonanywhere.com/media/course_imgs/React.jpeg",
   },
   {
-    id: 17,
+    id: 18,
     title: "Django Rest Framework Course",
     instructor: "Dr Zhang San",
     rating: 5,
@@ -111,7 +113,7 @@ const courses = [
     image: "https://minipro.pythonanywhere.com/media/course_imgs/drf.png",
   },
   {
-    id: 17,
+    id: 19,
     title: "TypeScript Full Course",
     instructor: "Dr John Doe",
     rating: 5,
